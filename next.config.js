@@ -23,7 +23,7 @@ module.exports = (phase) => {
       return config;
     },
     env: {
-      server: isDev ? 'http://localhost:3000' : 'http://localhost:3000'
+      server: isProd ? 'https://everboards-next.vercel.app' : 'http://localhost:3000'
     },
     redirects: async () => {
       return [{
