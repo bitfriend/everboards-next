@@ -7,6 +7,8 @@ import createCache from '@emotion/cache';
 import theme from '../src/helpers/theme';
 import { CacheProvider } from '@emotion/react';
 
+import '../styles/globals.css';
+
 export const cache = createCache({
   key: 'css',
   prepend: true
